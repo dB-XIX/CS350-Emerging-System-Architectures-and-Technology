@@ -1,22 +1,73 @@
-Emerging Systems Architectures and Technologies Project: SysTec Smart Thermostat
-Project Summary
-This project involved the development of a smart thermostat prototype using the TI CC3220x LaunchPad. The thermostat was designed to read room temperature via the TMP006 sensor, control heating with an LED indicator, adjust the set temperature using buttons, and simulate server communication via UART. The problem being solved was creating a foundational system for a smart thermostat to integrate into SysTec’s analytics software, addressing the global market need for connected, energy-efficient devices.
+# Emerging Systems Architectures and Technologies Project: SysTec Smart Thermostat
 
-Artifacts
-Thermostat Source Code: Demonstrates my ability to write interface software to control hardware components, including I2C for sensor reading, GPIO for LED and button functionality, and UART for simulated server communication.
-Hardware Architecture Report: Showcases my ability to analyze hardware designs, compare architectures (TI CC3220, Microchip ATWINC1510, and Freescale NXP Kinetis), and recommend the best solution based on SysTec’s business requirements.
-Reflection
-What did you do particularly well?
-I successfully implemented a task scheduler to manage periodic functions like temperature readings, button handling, and data logging, ensuring synchronization and reliability. Additionally, I effectively documented the hardware architecture analysis, providing a clear and concise recommendation that aligns with the project’s business goals.
+## Project Summary
+This project involved the development of a smart thermostat prototype using the **TI CC3220x LaunchPad**. The thermostat was designed to:
+- Read room temperature via the **TMP006 sensor**.
+- Control heating using an **LED indicator**.
+- Adjust the set temperature with buttons.
+- Simulate server communication via **UART**.
 
-Where could you improve?
-While the project met its objectives, there’s room to improve the initial debugging process and optimization of peripheral configurations. Spending more time on testing and refining edge cases could have streamlined development.
+The objective was to create a foundational system for a smart thermostat that could integrate into SysTec’s analytics software, addressing the global market demand for connected, energy-efficient devices.
 
-What tools and/or resources are you adding to your support network?
-I integrated several valuable tools into my workflow, including TI Code Composer Studio for development, GitHub for version control, and draw.io for task scheduling diagrams. Online resources like datasheets, technical documentation, and TI’s SimpleLink SDK were crucial. I also deepened my knowledge of I2C, UART, and embedded systems, which will continue to be part of my resource toolkit.
+---
 
-What skills from this project will be particularly transferable to other projects and/or coursework?
-The skills gained in writing and debugging low-level code for hardware peripherals are transferable to any embedded systems project. The ability to design task schedulers, analyze hardware architectures, and make informed recommendations based on technical and business needs will be invaluable in both academic and professional settings.
+## Artifacts
 
-How did you make this project maintainable, readable, and adaptable?
-I followed best practices for clean code, including consistent formatting, meaningful variable names, and detailed inline comments. Additionally, the modular design ensures that components like I2C, UART, and GPIO can be modified or replaced without affecting the entire system. The documentation and pseudocode provide a clear roadmap for future development and adaptation.
+### Thermostat Source Code
+- Demonstrates proficiency in writing interface software to control hardware components:
+  - **I2C**: Used for temperature sensor readings.
+  - **GPIO**: Configured for LED indicators and button functionality.
+  - **UART**: Implemented for simulated server communication.
+
+### Hardware Architecture Report
+- Analyzed hardware designs and compared architectures, including:
+  - **TI CC3220**
+  - **Microchip ATWINC1510**
+  - **Freescale NXP Kinetis**
+- Recommended the optimal solution based on SysTec’s business requirements.
+
+---
+
+## Reflection
+
+### What Did I Do Particularly Well?
+- **Task Scheduler Implementation**: Successfully implemented a task scheduler to manage periodic functions such as:
+  - Temperature readings
+  - Button handling
+  - Data logging
+  - Ensured synchronization and system reliability.
+- **Documentation**: Effectively documented the hardware architecture analysis, providing a clear and concise recommendation that aligned with the project’s business goals.
+
+### Where Could I Improve?
+- **Debugging Process**: Enhance the initial debugging phase to identify and resolve issues more efficiently.
+- **Peripheral Optimization**: Spend additional time optimizing peripheral configurations and testing edge cases to streamline development.
+
+### Tools and Resources Added to My Support Network
+- **TI Code Composer Studio**: Used for development and debugging.
+- **GitHub**: Managed version control and collaboration.
+- **draw.io**: Created task scheduling diagrams.
+- **Online Resources**:
+  - Datasheets
+  - Technical documentation
+  - TI’s SimpleLink SDK
+- Gained deeper knowledge of **I2C**, **UART**, and embedded systems.
+
+### Transferable Skills
+- **Low-Level Code Development**: Writing and debugging code for hardware peripherals, applicable to any embedded systems project.
+- **Task Scheduling**: Designing and managing task schedulers for system synchronization.
+- **Hardware Architecture Analysis**: Evaluating and comparing hardware solutions based on technical and business needs.
+
+### Ensuring Maintainability, Readability, and Adaptability
+- **Clean Code Practices**:
+  - Consistent formatting
+  - Meaningful variable names
+  - Detailed inline comments
+- **Modular Design**:
+  - Components like I2C, UART, and GPIO are designed independently, allowing for easy modifications or replacements without affecting the entire system.
+- **Comprehensive Documentation**:
+  - Includes pseudocode and detailed reports, providing a clear roadmap for future development and adaptation.
+
+---
+
+This project has not only enhanced my technical skills but also demonstrated the importance of balancing technical and business needs when designing embedded systems. The knowledge and practices gained will be invaluable in future academic and professional endeavors.
+
